@@ -1,0 +1,20 @@
+
+[project]
+name = "arkhamd100"
+version = "1.0.0"
+description = "D100 para Call of Cthulhu 7th Edition"
+requires-python = ">=3.14"
+dependencies = [
+    "flet==1.0.5",
+    "flet-audio==1.0.5"
+]
+
+[tool.flet]
+org = "com.danigeese"
+product = "ARKHAM D100"
+description = "Un dado contra la locura"
+build_number = 2
+
+[tool.flet.android]
+min_sdk_version = 24
+target_sdk_version = 36
